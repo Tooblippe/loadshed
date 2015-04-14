@@ -21,7 +21,7 @@ from time import sleep
 
 def Send_SMS(msg):
     s =  BulkSMS.Server('username','password',address='bulksms.2way.co.za')
-    s.send_sms( ['27798979035'], msg )
+    s.send_sms( ['2779xxxxxx'], msg )
 
 
 def GetLoadsheddingStage():
