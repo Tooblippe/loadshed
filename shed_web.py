@@ -20,7 +20,7 @@ from time import sleep
 
 
 def Send_SMS(msg):
-    s =  BulkSMS.Server('Tooblippe','Tobiesandra69@',address='bulksms.2way.co.za')
+    s =  BulkSMS.Server('username','password',address='bulksms.2way.co.za')
     s.send_sms( ['27798979035'], msg )
 
 
